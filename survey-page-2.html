@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="survey, forms">
+        <meta name="author" content="Simona Stanciu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <header>
+                    <div class="notifications-header-2">
+                        <div class="notifications-survey">Notifications Survey</div>
+                    </div>
+                </header>
+            </header>
+        
+            <main>
+                <form>
+                    <div class="q-one">Would you recomment our Board to other users?</div>
+                    <div class="numbers-wrapper">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                    </div>
+                    <div class="q-one-legend">
+                        <div>Not at all likely</div>
+                        <div>Extremely likely</div>
+                    </div>
+
+                    <div class="q-two">Pick the 3 things you find most important with the integration documention:</div>
+                    <div class="checkbox-items">
+                        <div>
+                            <input type="checkbox" id="tutorials" name="documention" value="Tutorials">
+                            <label for="tutorials">Tutorials</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="api-reference" name="documention" value="api-referece">
+                            <label for="api-reference">API Reference</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="inline-code" name="documention" value="inline-code">
+                            <label for="inline-code">Inline code examples</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="clear-content" name="documention" value="clear-content">
+                            <label for="clear-content">Clear consistent content</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="ex-repos" name="documention" value="ex-repos">
+                            <label for="ex-repos">Runnable example repos</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="support" name="documention" value="support">
+                            <label for="support">Support</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="navi-search" name="documention" value="navi-search">
+                            <label for="navi-search">Navigation & Search</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="design-usability" name="documention" value="design-usability">
+                            <label for="design-usability">Design & Usability</label>
+                        </div>
+                    </div>
+                    
+
+                    <div class="q-three">How would you score your navigation experience so far</div>
+                    <div class="expectation-wrapper">
+                        <img src="assets/expectations-level-1.png">
+                        <img src="assets/expectations-level-2.png">
+                        <img src="assets/expectations-level-3.png">
+                        <img src="assets/expectations-level-4.png">
+                        <img src="assets/expectations-level-5.png">
+                    </div>
+
+                    <div class="q-three-legend">
+                        <div>Didn't meet expectations</div>
+                        <div>Exceeded expectations</div>
+                    </div>
+                </form>
+            </main>
+
+            <div class="buttons-wrapper-2">
+                <div class="back-button">
+                    <a href="survey-page-1.html">Back</a>
+                </div>
+
+                <div class="submit-button">
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

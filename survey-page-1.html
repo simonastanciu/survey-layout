@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="survey, forms">
+        <meta name="author" content="Simona Stanciu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="notifications-header">
+                    <div class="notifications-survey">Notifications Survey</div>
+                </div>
+            </header>
+
+            <main>
+                <div class="survey-intro">
+                    <div>We're working on out notifications system to make our product work better</div>
+                    <div>The survey consists in several questions and usually takes 5-7 minutes to complete</div>
+                </div>
+
+                <form>
+                    <div class="email-input">
+                        <label for="email-input">Enter your email:</label>
+                        <input required type="email" id="email-input" name="email-input" placeholder="Your answer">
+                    </div>
+
+                    <div class="question-one-container">
+                        <div class="q-one">Are you an admin or a member on our Board?</div>
+                        <div class="admin-container">
+                            <input type="radio" id="admin" name="board-question" value="Admin">
+                            <label for="admin">Admin</label>
+                        </div> 
+
+                        <div class="member-container">   
+                            <input type="radio" id="member" name="board-question" value="Member">
+                            <label for="member">Member</label>
+                        </div>
+                    </div>
+
+                    <div class="question-two-container">
+                        <div class="q-two">How do you collaborate in our Board?</div>
+                        <div>
+                            <input type="radio" id="create-edit-content" name="board-collab" value="create-edit-content">
+                            <label for="create-edit-content">Create and edit content</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="comment" name="board-collab" value="comments">
+                            <label for="comment">Comment and leave comment</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="review" name="board-collab" value="review">
+                            <label for="review">Just review created comment</label>
+                        </div>
+
+                        <div class="other">
+                            <input type="radio" id="other"  name="board-collab" value="other">
+                            <label for="other">Other</label>
+                            <input type="text" id="other" name="other-input">
+                        </div>
+                    </div>
+                </form>
+            </main>
+
+            <div class="buttons-wrapper-1">
+                <div class="next-button">
+                    <a href="survey-page-2.html">Next</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
